@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { POM_Model } from './pOM_Model';
+import { POM_Model } from './pOM_Model.spec';
 
 test('practiceTestautomation', async ({ page }) => {
     const username = 'student';
